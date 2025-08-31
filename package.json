@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npx vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "start": "vite preview --port $PORT"
+    "preview": "npx vite preview",
+    "start": "npx vite preview --port $PORT"
   },
   "dependencies": {
     "@google/genai": "^0.8.0",
